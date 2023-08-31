@@ -6,7 +6,7 @@ def main():
     print(3)
     print(10 + 10)
 
-
+#change
     #insert your name in this string below
     print("My name is ")
     #this is printing a string and not an integer. how do we fix it?
