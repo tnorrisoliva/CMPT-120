@@ -2,7 +2,7 @@
 #Assignment 1: Debug.py
 #Fix any syntax errors you can spot and fulfill any other requests
 def main():
-    print(hello)
+
     print(3)
     print(10 + 10)
 
@@ -23,7 +23,7 @@ def main():
     print("Hello, my best friend's name is ", name)
     
     #put your age here
-    age = 
+
     print("I'm " + name + " and i'm " + str(age) + " years old")
     
  
