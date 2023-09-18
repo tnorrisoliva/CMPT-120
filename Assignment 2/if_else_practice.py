@@ -3,7 +3,16 @@
 #The second if/else should read: Else if 10 is greater than 11, print out "10 is greater than 11"
 #The third if/else should read: Else if 10 is equal to 10, print out "10 is equal to 10"
 #The else should read: Else print out "10 is less than 10"
-
+var= 10
 def main():
+    if var > 12:
+        print("10 is greater than 12")
+    elif var > 11:
+        print("10 is greater than 11")
+    elif var == 10:
+        print("10 is equal to 10")
+    else:
+        print("10 is less than 10")
+
 
 main()
