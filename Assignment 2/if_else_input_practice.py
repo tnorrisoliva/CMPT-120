@@ -8,6 +8,17 @@
 
 
 #additional instructions: instead of setting our variable to 10, what if we asked the user for the variable and used that value in our comparisons?
+var = input("enter a number")
+var= int(var)
 def main():
+    if var > 12:
+        print("your number is greater than 12")
+    elif var > 11:
+        print("your number is greater than 11")
+    elif var == 10:
+        print("your number is equal to 10")
+    else:
+        print("your number is less than 10")
+
 
 main()
