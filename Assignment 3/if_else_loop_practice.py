@@ -9,8 +9,21 @@ elif the number is between 20-35: print ("between 20-35")
 elif the number is between 5-20: print ("between 5 and 20")
 else (the number is less than 5)
 '''
-
+num = [5, 24, 42, 17, 32, 47, 1, 25]
 def main():
-    
-    
+
+
+    for x in range(len(num)):
+        if num[x] > 35:
+
+            print(num[x]," is greater than 35")
+        elif num[x] <=35 and num[x] > 20:
+
+            print(num[x]," is between 20-35")
+        elif num[x] <=20 and num[x] >=5:
+
+            print(num[x],"is between 5 and 20")
+        else:
+
+            print(num[x]," is less than 5")
 main()
