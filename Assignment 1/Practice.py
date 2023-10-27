@@ -1,8 +1,13 @@
-list=[4,"wrd",4.5,True]
-list2=[]
+def printNames(x,y):
+    print(x)
+    print(y)
 
-for x in range(len(list)):
-    list2.append(type(list[x]))
-    print(list2)
+def main():
+    printNames("Tomas","Mitch")
 
 
+8
+
+
+
+main()
